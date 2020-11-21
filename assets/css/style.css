@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/*----------Navbar----------*/
+
+.navbar-bg {
+    background-color: rgb(212, 81, 81);
+}
+
+.navbar {
+    font-family: 'Merriweather', serif;
+    height: 60px;
+}
+
+nav > .active {
+    font-size: 100px;
+}
+
+/*----------Footer----------*/
+
+.page-footer {
+    background-color: rgb(212, 81, 81);
+}
+
+.page-footer > div {
+    color: #fafafa;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.page-footer > i {
+    background-color: pink;
+}
