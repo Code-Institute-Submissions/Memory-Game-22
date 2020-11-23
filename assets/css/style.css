@@ -1,32 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 /*----------Navbar----------*/
 
 .navbar-bg {
-    background-color: rgb(212, 81, 81);
+  background-color: rgb(212, 81, 81);
 }
 
 .navbar {
-    font-family: 'Merriweather', serif;
-    height: 60px;
+  font-family: "Merriweather", serif;
+  height: 60px;
 }
 
 nav > .active {
-    font-size: 100px;
+  font-size: 100px;
+}
+
+/*----------Support----------*/
+
+.support-section-bg-color {
+  background-color: rgb(231, 231, 231);
+}
+
+.support-heading {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.support-text-div > h3 {
+  width: 60%;
+}
+
+.center-form {
+  margin: 0 auto;
+  max-width: 70%;
+  padding-top: 10px;
+}
+
+.support-input-bar {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /*----------Footer----------*/
 
 .page-footer {
-    background-color: rgb(212, 81, 81);
+  background-color: rgb(212, 81, 81);
 }
 
 .page-footer > div {
-    color: #fafafa;
-    font-family: 'Merriweather', serif;
-    text-align: center;
+  color: #fafafa;
+  font-family: "Merriweather", serif;
+  text-align: center;
 }
 
-.page-footer > i {
-    background-color: pink;
+.footer-icons {
+  color: green;
 }
