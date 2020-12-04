@@ -20,7 +20,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_ZmoWMh3gt5zGtTq3gGZeq");
+      })();
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_ZmoWMh3gt5zGtTq3gGZeq");
+      })();
+    </script>
   </head>
+
   <body>
     <!--Header-->
     <header>
@@ -73,7 +93,7 @@
           <div class="col-12 col-md-1 .d-none .d-md-block .d-xl-none"></div>
         </div>
         <div class="center-form">
-          <form>
+          <form onsubmit="return sendMail(this);">
             <input
               type="text"
               name="name"
@@ -84,7 +104,7 @@
             />
             <input
               type="email"
-              name="email"
+              name="emailaddress"
               id="emailaddress"
               class="form-control support-input-bar"
               placeholder="Email"
@@ -151,5 +171,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
   </body>
 </html>
