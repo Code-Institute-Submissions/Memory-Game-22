@@ -27,7 +27,7 @@ nav > .active {
     cursor: pointer;
     display: inline-block;
     height: 170px;
-    width: 170px;
+    width: 25%;
 }
 
 .cards:hover {
@@ -56,6 +56,10 @@ nav > .active {
 
 .pink {
     background-color: pink;
+}
+
+.color-hidden {
+    background-color: #fafafa;
 }
 
 /*----------Support----------*/
