@@ -15,6 +15,49 @@ nav > .active {
   font-size: 100px;
 }
 
+/*----------Home page----------*/
+
+.row {
+    text-align: center; 
+}
+
+.cards {
+    background-color: grey;
+    border: 2px solid red;
+    cursor: pointer;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+}
+
+.cards:hover {
+    border: 2px solid #fafafa;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
 /*----------Support----------*/
 
 .support-section-bg-color {
