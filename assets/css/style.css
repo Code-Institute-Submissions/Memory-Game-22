@@ -22,7 +22,7 @@ nav > .active {
 }
 
 .cards {
-    background-color: grey;
+    background-color: #fafafa;
     border: 2px solid red;
     cursor: pointer;
     display: inline-block;
@@ -33,6 +33,15 @@ nav > .active {
 .cards:hover {
     border: 2px solid #fafafa;
 }
+
+.cards.done:hover {
+    box-shadow: none;
+}
+
+.cards.done {
+    cursor: default;
+}
+
 
 .blue {
     background-color: blue;
