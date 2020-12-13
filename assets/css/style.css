@@ -15,7 +15,7 @@ nav > .active {
   font-size: 100px;
 }
 
-/*----------Home page----------*/
+/*----------game pages----------*/
 
 .row {
     text-align: center; 
@@ -65,6 +65,22 @@ nav > .active {
 
 .pink {
     background-color: pink;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.cyan {
+    background-color: cyan;
 }
 
 .color-hidden {

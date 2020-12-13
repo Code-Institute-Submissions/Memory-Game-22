@@ -36,13 +36,13 @@ function onCardClicked(e) {
                 clickedCard = null;
                 
                 stopMultiClick = false;
-            }, 750);
+            }, 225);
         }
         else {
             
             clickedCard = null;
             matchesMade ++;
-            if (matchesMade === 6) {alert("Game Completed! Well done!")}
+            if (matchesMade === 10) {alert("Game Completed! Well done on completing the hardest level!")}
             
         }
     }

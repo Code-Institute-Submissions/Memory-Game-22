@@ -42,7 +42,7 @@ function onCardClicked(e) {
             
             clickedCard = null;
             matchesMade ++;
-            if (matchesMade === 6) {alert("Game Completed! Well done!")}
+            if (matchesMade === 6) {alert("Level completed, well done! Why not give medium difficulty a try?")}
             
         }
     }

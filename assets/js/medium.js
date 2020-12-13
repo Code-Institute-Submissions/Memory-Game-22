@@ -36,13 +36,13 @@ function onCardClicked(e) {
                 clickedCard = null;
                 
                 stopMultiClick = false;
-            }, 750);
+            }, 450);
         }
         else {
             
             clickedCard = null;
             matchesMade ++;
-            if (matchesMade === 6) {alert("Game Completed! Well done!")}
+            if (matchesMade === 8) {alert("Well done for completing medium difficulty! Why not try hard if you are feeling brave?!")}
             
         }
     }
