@@ -1,31 +1,49 @@
 let clickedCard = null;
 
-function onCardClicked(e) {
-    const target = e.currentTarget;
 
-    if (target === clickedCard || target.className.includes('done')) {
+
+let stopMultiClick = false;
+
+let matchesMade = 0;
+
+function onCardClicked(e) {
+    const clicked = e.currentTarget;
+
+    if (
+        stopMultiClick ||
+        clicked === clickedCard || clicked.className.includes('done')) {
         return;
     }
 
 
-    target.className = target.className
+    clicked.className = clicked.className
         .replace('color-hidden', '')
         .trim();
 
 
     if (!clickedCard) {
-        clickedCard = target;
+        clickedCard = clicked;
     }
     else if (clickedCard) {
-        if (clickedCard.getAttribute('data-color') === target.getAttribute('data-color')) {
 
-            console.log('cards do match');
-        } else {
+        
+        if (clickedCard.getAttribute('data-color') !== clicked.getAttribute('data-color')) {
             console.log('cards do not match');
+            stopMultiClick = true;
             setTimeout(() => {
-                clickedCard.className = clickedCard.className .replace('done', '').trim() + 'color-hidden';
-                target.className = target.className.replace('done', '').trim() + 'color-hidden';
-            }, 500);
+                clickedCard.className = clickedCard.className.replace('done', '').trim() + 'color-hidden';
+                clicked.className = clicked.className.replace('done', '').trim() + 'color-hidden';
+                clickedCard = null;
+                
+                stopMultiClick = false;
+            }, 750);
+        }
+        else {
+            
+            clickedCard = null;
+            matchesMade ++;
+            if (matchesMade === 6) {alert("Game Completed! Well done!")}
+            
         }
     }
 }
