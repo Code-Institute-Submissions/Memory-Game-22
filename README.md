@@ -178,3 +178,61 @@ I had a number of work collegues/ friends trial the website out for feedback so 
 1. Game onto game page and click the tiles faster than 225ms.
 2. Tiles do not crash and game does not stop working.
 
+## Deployment
+
+[Tiles memory game](https://masoncodycox.github.io/Memory-Game/)
+
+This project of mine is deployed via GitHub pages through my repository. There is no difference between the deployed version and the deployment version.
+
+### Deploying a Github Repository page
+
+- Firstly, in your Repository, select the Repository you wish to deploy.
+- Located in the top horizonatal bar above the Repository, click the Settings link.
+- Inside the Settings page, scroll down until you find the Github Pages Section.
+- Under the Source Section, Click the Tab with *None* Selected and set it to Master then click save.
+- Lastly, once the page has refreshed, scroll back down to the Github Pages Secton and your site URL will be located there.
+
+### Making a Local Clone
+
+- Locate the Github Repository.
+- Click the Code button.
+- copy the link that is presented to you.
+- In Gitpod, change the directory to the location you would like the cloned directory to be located.
+- Type *git clone* in the terminal and paste the link you copied previously.
+- Press enter to create your local clone.
+
+## Credits
+
+#### Content -
+
+The Navbar and footer have all been copied from bootstrap 4. I have now styled the in my own way to fit into my website.
+The contact page form has been copied from one of my previous projects but styled to fit correctly with this website 
+along with added javascript for functonality.
+
+[Bootstrap](https://getbootstrap.com/) - This is the framework I used to construct the website. the navbar and footer is constructed using this but fully styled by myself.
+
+[Stack Overflow](https://stackoverflow.com/) - I used this as a resource of skils that I needed to learn e.g styling images.
+
+[W3Schools](https://www.w3schools.com/default.asp) - I used this as a resource for skills e.g Styling pieces of text.
+
+[W3Docs](https://www.w3docs.com/) - I used this to learn how to style buttons and spans.
+
+[Geeks for geeks](https://www.geeksforgeeks.org/) - I used this to learn different attributes for HTML.
+
+[Site point community](https://www.sitepoint.com/community/) - I used this to learn how to style bootstraps grid system.
+
+[CSS.Hover](https://ianlunn.github.io/Hover/) - I used this to design my contact page button.
+
+[Font awesome](https://fontawesome.com/v4.7.0/) - This was used to add icons into the footer for socials
+
+[Google fonts](https://fonts.google.com/) - This website was used to add personality to my website
+
+[EmailJS](emailjs.com) - This is what i used to get my support form working
+
+#### Media
+
+[Youtube] (https://www.youtube.com/watch?v=xjAu2Y2nJ34) - This is where I learnt a lot of how to implement javascript
+
+#### Acknowledgments
+
+I have taken inspiration from my previous projects that have helped me construct this one. They are on my github repository
