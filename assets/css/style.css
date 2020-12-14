@@ -15,6 +15,12 @@ nav > .active {
   font-size: 100px;
 }
 
+/*----------Body sections----------*/
+
+.home-support-bg {
+    background-color: rgb(231, 231, 231);
+}
+
 /*----------game pages----------*/
 
 .row {
@@ -89,10 +95,6 @@ nav > .active {
 
 /*----------Support----------*/
 
-.support-section-bg-color {
-  background-color: rgb(231, 231, 231);
-}
-
 .support-heading {
   font-family: "Merriweather", serif;
   font-weight: 300;
@@ -114,6 +116,11 @@ nav > .active {
 .support-input-bar {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.support-btn {
+    border: 2px solid rgb(212, 81, 81);
+    margin-bottom: 23px;
 }
 
 /*----------Footer----------*/
